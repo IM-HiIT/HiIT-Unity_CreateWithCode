@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        // Move the Vehicle Forward
-        transform.Translate(Vector3.forward);
+        // Move the Vehicle Forward (20Meter per Second)
+        transform.Translate(Vector3.forward * Time.deltaTime * 20f);
     }
 }
