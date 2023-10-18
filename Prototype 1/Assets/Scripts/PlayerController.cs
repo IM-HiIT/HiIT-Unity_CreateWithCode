@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour {
+
+    [SerializeField] private float speed = 5.0f;
     // Start is called before the first frame update
     void Start() {
     }
@@ -10,6 +12,6 @@ public class PlayerController : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         // Move the Vehicle Forward (20Meter per Second)
-        transform.Translate(Vector3.forward * Time.deltaTime * 20f);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
