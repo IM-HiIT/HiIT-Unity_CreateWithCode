@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour {
 
     [SerializeField] private float speed = 5.0f;
+    [SerializeField] private float turnSpeed = 5.0f;
     // Start is called before the first frame update
     void Start() {
     }
@@ -13,5 +14,7 @@ public class PlayerController : MonoBehaviour {
     void Update() {
         // Move the Vehicle Forward (20Meter per Second)
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
+        // Turn the Vehicle
+        transform.Translate(Vector3.right * Time.deltaTime * turnSpeed);
     }
 }
