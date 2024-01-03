@@ -9,7 +9,6 @@ public class FollowPlayer : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        
     }
 
     // LateUpdate is called after Update once per frame
