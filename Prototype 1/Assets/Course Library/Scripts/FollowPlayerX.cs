@@ -1,8 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 
-public class FollowPlayer : MonoBehaviour {
+public class FollowPlayerX : MonoBehaviour {
     [SerializeField] private GameObject player;
-    private Vector3 offset = new Vector3(0, 5f, -8.5f);
+    [SerializeField] private Vector3 offset = new Vector3(20f, 3f, 0f);
 
     // Start is called before the first frame update
     void Start() {
