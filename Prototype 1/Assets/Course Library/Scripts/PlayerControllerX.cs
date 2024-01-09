@@ -20,10 +20,8 @@ public class PlayerControllerX : MonoBehaviour {
         horizInput = Input.GetAxis("Horizontal");
 
         // Accelerate/Dexcelerate
-        transform.Translate(vertiInput * speed * Time.deltaTime * Vector3.forward);
-        // Yaw
-        //transform.Rotate(Vector3.up, Time.deltaTime * pitchSpeed * horizInput);
+        transform.Translate(horizInput * speed * Time.deltaTime * Vector3.forward);
         // Pitch
-        transform.Rotate(Vector3.left, horizInput * pitchSpeed * Time.deltaTime);
+        transform.Rotate(Vector3.left, vertiInput * pitchSpeed * Time.deltaTime);
     }
 }
