@@ -1,12 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
+// using System.Collections;
+// using System.Collections.Generic;
 using UnityEngine;
 
 public class spawnManager : MonoBehaviour {
 
 
     [SerializeField] private GameObject [] animalPrefabs;
-    [SerializeField] private Vector3 spawnPos = new Vector3(0, 0, 20);
+    private float spawnRange = 20f;
+    private float spawnPosZ = 20f;
 
     // Start is called before the first frame update
     void Start() {
@@ -17,6 +18,7 @@ public class spawnManager : MonoBehaviour {
     void Update() {
         if (Input.GetKeyDown(KeyCode.S)) {
             int animalIndex = Random.Range(0, animalPrefabs.Length);
+            Vector3 spawnPos = new(Random.Range(-spawnRange, spawnRange), 0, spawnPosZ);
             Instantiate(animalPrefabs[animalIndex], spawnPos, animalPrefabs[animalIndex].transform.rotation);
         }
     }
