@@ -22,5 +22,10 @@ public class PlayerController : MonoBehaviour {
         }
         horizInput = Input.GetAxis("Horizontal");
         transform.Translate(horizInput * speed * Time.deltaTime * Vector3.right);
+
+        if (Input.GetKeyDown(KeyCode.Space)) {
+            //
+            Debug.Log("Space");
+        }
     }
 }
