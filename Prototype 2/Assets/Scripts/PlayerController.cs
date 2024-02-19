@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour {
     private float horizInput;
     [SerializeField] private float speed = 10f;
     [SerializeField] private float boundary = 15f;
+    [SerializeField] private GameObject projectile;
 
     // Start is called before the first frame update
     void Start() {
@@ -24,8 +25,7 @@ public class PlayerController : MonoBehaviour {
         transform.Translate(horizInput * speed * Time.deltaTime * Vector3.right);
 
         if (Input.GetKeyDown(KeyCode.Space)) {
-            //
-            Debug.Log("Space");
+            Instantiate(projectile, transform.position, projectile.transform.rotation);
         }
     }
 }
