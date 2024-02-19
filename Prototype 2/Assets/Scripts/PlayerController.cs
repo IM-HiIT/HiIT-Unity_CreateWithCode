@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float horizInput;
+    private float horizInput;
+    [SerializeField] private float speed = 10f;
 
     // Start is called before the first frame update
     void Start()
@@ -15,6 +16,7 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     horizInput = Input.GetAxis("Horizontal");   
+     horizInput = Input.GetAxis("Horizontal");
+     transform.Translate(horizInput * speed * Time.deltaTime * Vector3.right);
     }
 }
