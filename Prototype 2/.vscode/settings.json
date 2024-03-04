@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Prototype 2.sln"
+    "dotnet.defaultSolution": "Prototype 2.sln",
+    "diffEditor.codeLens": true
 }
