@@ -3898,10 +3898,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5264460568147865941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 928b5231f06bf544c85078fae062b0cd, type: 3}
+  m_Script: {fileID: 11500000, guid: d468918366ed03040a7410410fb1154b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outOfBound: 10
+  speed: 40
 --- !u!114 &638805694676369018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3911,10 +3911,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 5264460568147865941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26f746f497d5c814a82d91fb03d4c382, type: 3}
+  m_Script: {fileID: 11500000, guid: 713291819c3e70541bd883c4094f2c64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 40
+  outOfBound: 10
 --- !u!1 &5487673601129827705
 GameObject:
   m_ObjectHideFlags: 0

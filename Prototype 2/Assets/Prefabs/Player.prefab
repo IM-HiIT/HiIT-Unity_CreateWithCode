@@ -475,12 +475,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2329872108648578145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0c2ecb31ec92e3c488bf4811b04ee751, type: 3}
+  m_Script: {fileID: 11500000, guid: d50ffca8fb9e8dc4995718fe4a3f9adf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 10
   boundary: 15
-  projectile: {fileID: 5281878811627389341, guid: 3410701ae27ed7648b2f5fef6a43826f, type: 3}
+  projectile: {fileID: 5281878811627389341, guid: 5b6dc04de58ac094eaf1122b6758f278, type: 3}
 --- !u!1 &2463596578929240879
 GameObject:
   m_ObjectHideFlags: 0
