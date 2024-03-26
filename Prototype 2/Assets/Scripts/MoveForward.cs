@@ -1,18 +1,16 @@
-// using System.Collections;
-// using System.Collections.Generic;
 using UnityEngine;
-
-public class MoveForward : MonoBehaviour {
-
+public class MoveForward : MonoBehaviour
+{
+    /** Move Forward
+    /* Movement Speed
+    */
     [SerializeField] private float speed = 40f;
-    // Start is called before the first frame update
-    void Start() {
-        
-    }
 
-    // Update is called once per frame
+    /** Update
+    /* Update is called once per frame
+    /* Move the GameObject forwards with speed 
+    */
     void Update() {
         transform.Translate(speed * Time.deltaTime * Vector3.forward);
-        
     }
 }

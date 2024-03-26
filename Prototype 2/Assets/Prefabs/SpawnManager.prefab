@@ -41,11 +41,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2337231732560922023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03581e530ce508b4f9f8471f2672dc83, type: 3}
+  m_Script: {fileID: 11500000, guid: c047ee689ce90904cb658ff4ed5d48dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animalPrefabs:
-  - {fileID: 485093304954257269, guid: 4ea76b989a69a924cb1845bf179b8389, type: 3}
-  - {fileID: 7634457270727035802, guid: 6ec40247229bb0d47909573f69f55049, type: 3}
-  - {fileID: 6087331058021134443, guid: 1e3aa4e94afbb0e44b4948450ced546b, type: 3}
-  - {fileID: 5264460568147865941, guid: ed5f840d7ef278b43ba9988f0e1498ba, type: 3}
+  - {fileID: 485093304954257269, guid: 575c8164d5149cd4f8ce6a43244a2434, type: 3}
+  - {fileID: 7634457270727035802, guid: 33444897006977e449f25b9604caf384, type: 3}
+  - {fileID: 6087331058021134443, guid: a1f15949103cc21469a93e6c4a33400f, type: 3}
+  - {fileID: 5264460568147865941, guid: b05a0a548c332284ab9ee56e85be8f45, type: 3}
